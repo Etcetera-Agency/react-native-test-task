@@ -1,29 +1,27 @@
 # react-native-test-task
 
-Make up presentation app for our company. Which must consist from 3 main parts:
+Cделайте приложение для знакомства с нашей командой. Которое должно состоять из 3-х основных частей:
 
-1 - Main page, 2 - application form, 3 - page with company info (about us).
+1 - главная страница, 2 - форма заявки, 3 - страница с информацией о компании (о нас).
 
-The main page consists from background picture, links to follow to website, buttons to go to the page for filling out the questionnaire, and also a button to go to the information page about the company.
+Главная страница состоит из фоновой картинки, ссылки на сайт https://www.upwork.com/ag/etcetera/, кнопок для перехода на страницу для заполнения анкеты, а также кнопки для перехода на информационную страницу о компании.
 
-The second page shows itself application form for job seeker.
+На второй странице анкета соискателя.
 
-The questionnaire for the applicant consists of fields for step-by-step input of information and a button for sending data to the mail.
+Анкета для соискателя состоит из полей для пошагового ввода информации и кнопки для отправки данных по почте. На третьем экране нужно реализовать возможность сделать фото с фронтальной камеры.
 
-The company information page consists of background and text.
-Requirements: the application must be implemented exactly as provided by the design. To navigate between screens, the React Router / Native library should be used. Use a “pure React Native” (not an Expo). Using Redux / Saga is a plus.
+Страница информации о компании состоит из фона и текста. Требования:  она должна быть реализована в точном соответствии с дизайном. 
 
-Criteria for admission:
+Для навигации между экранами необходимо использовать React Router / Native Library. Используйте pure React Native . Использование Redux / Saga - это плюс.
 
-1 - the design implementation on different screen sizes should coincide with the presented design in Figma
+Критерии оценки:
 
-2 - the source code must be written cleanly, adhering to the best practice in the industry, adhering to the principles of SOLID
+1 - реализация дизайна на экранах различного размера должна совпадать с представленным дизайном на Figma
 
-3 - information from the questionnaire should be validated and sent as a text message through the email client built into the phone (hr@spryrocks.com) 
+2 - исходный код должен быть написан чисто, с соблюдением принципов SOLID
 
-4 - the result should be presented as a merge request from the master branch of your repository to the master branch of ours.
+3 - информация из анкеты должна быть валидирована и отправлена в виде письма с вложением фото через встроенный OS телефона почтовый клиент на адрес test@etcetera.kiev.ua.
 
-The basis is the project located in our repository, the code must be written in TypeScript.
+Основой является проект, находящийся в архиве ниже.
 
-Design of the App.
-https://www.figma.com/file/cwrsvX5DyRvuxMPMpUQk4W/Testing-App-SPRY-ROCKS?node-id=0%3A1
+Дизайн приложения https://www.figma.com/file/nfUiMxkaPcHQ1zJ4PHKp8w/Testing-App-Etcetera-Agency?node-id=0%3A1
